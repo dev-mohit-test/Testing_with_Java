@@ -18,6 +18,12 @@ public void testcase() {
 	System.out.println(res.asPrettyString());
 	System.out.println(res.getStatusCode());
 	System.out.println(res.getTime());
+	System.out.println(res.getTime());
+	System.out.println(res.getHeader("Content-Type"));
+	System.out.println(res.asPrettyString());
+	System.out.println(res.getStatusCode());
+	System.out.println(res.getTime());
+	
 	
 }
 }
